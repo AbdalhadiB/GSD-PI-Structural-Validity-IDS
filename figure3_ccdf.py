@@ -1,5 +1,12 @@
 """
-figure3_ccdf_updated.py
+Figure 3 — Source Out-Degree CCDF Comparison
+NF-ToN-IoT-v2 (Case I) vs NF-CSE-CIC-IDS2018-v2 (Case II)
+
+Usage: Run in Google Colab or locally.
+Requires: entity_table_ALL.csv in the same directory.
+Output: Figure3_CCDF_comparison.pdf / .png (300 dpi, publication-ready)
+
+figure3_ccdf.py
 Updated Figure 3: Source out-degree CCDF for NF-ToN-IoT-v2 (Case II) 
 and NF-CSE-CIC-IDS2018-v2 (Case III)
 
@@ -11,7 +18,7 @@ Updated labels to match four-case taxonomy:
 
 Usage (Colab):
   1. Upload entity_table_ALL.csv to /content/ or adjust DATA_PATH
-  2. Run: python figure3_ccdf_updated.py
+  2. Run: python figure3_ccdf.py
   3. Output: figure3_ccdf.png (300 DPI, journal-ready)
 """
 
