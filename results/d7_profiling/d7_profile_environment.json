@@ -1,0 +1,24 @@
+{
+  "python": "3.13.18",
+  "os": "Linux-6.6.159+-x86_64-with-glibc2.39",
+  "cpu": "x86_64",
+  "logical_cores": 2,
+  "total_ram_gib": 12.67,
+  "pandas": "2.2.3",
+  "numpy": "2.4.6",
+  "duckdb": "1.3.2",
+  "full_input_basename": "NF-UQ-NIDS-v2.csv",
+  "full_input_bytes": 13729330230,
+  "policy": {
+    "delta_tc": 0.05,
+    "gamma_min": 3.0,
+    "k_min": 2,
+    "top_k": 30,
+    "mgr_low": 2.0,
+    "mgr_strong": 5.0
+  },
+  "memory_limit": "10GB",
+  "threads": 2,
+  "scope": "NEW benchmark; NOT historical wall clock or memory",
+  "full_input_sha256": "NOT_COMPUTED; use hash_input=True for archival integrity"
+}

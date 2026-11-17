@@ -1,0 +1,38 @@
+{
+  "cohort_rows": {
+    "NF-ToN-IoT-v2": 16940496,
+    "NF-CSE-CIC-IDS2018-v2": 18893708
+  },
+  "results": {
+    "NF-ToN-IoT-v2": {
+      "n_sources": 23079,
+      "P90": 1.0,
+      "P95": 1.0,
+      "P97": 1.0,
+      "TC": true,
+      "MGR": 12.466183574879228,
+      "n_eligible_gap_ranks": 1,
+      "decision": "GAP_RECOVERY_CANDIDATE",
+      "threshold": 214.0,
+      "selected": 11,
+      "n_edges": 31645,
+      "attack_sources": 31,
+      "selected_attack_sources": 10
+    },
+    "NF-CSE-CIC-IDS2018-v2": {
+      "n_sources": 224568,
+      "P90": 10.0,
+      "P95": 22.0,
+      "P97": 36.0,
+      "TC": false,
+      "MGR": 1.1860028182245186,
+      "n_eligible_gap_ranks": 0,
+      "decision": "P95_STABLE",
+      "threshold": 22.0,
+      "selected": 11571,
+      "n_edges": 1872361,
+      "attack_sources": 648,
+      "selected_attack_sources": 301
+    }
+  }
+}

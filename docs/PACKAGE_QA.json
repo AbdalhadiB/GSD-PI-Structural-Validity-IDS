@@ -1,0 +1,60 @@
+{
+  "files_in_manifest": 49,
+  "notebooks": {
+    "notebooks/01_algorithm/GSD_PI_Algorithm1_Aligned_v2_EXECUTED.ipynb": {
+      "code_cells": 4,
+      "cells_executed": 4,
+      "saved_error_outputs": 0,
+      "syntax_parse": "PASS"
+    },
+    "notebooks/02_wtmc/D3_WTMC2021_Colab_EXECUTED_PUBLIC.ipynb": {
+      "code_cells": 5,
+      "cells_executed": 5,
+      "saved_error_outputs": 0,
+      "syntax_parse": "PASS"
+    },
+    "notebooks/03_external/CIDDS001_M4_Frozen_Validation_Colab.ipynb": {
+      "code_cells": 4,
+      "cells_executed": 4,
+      "saved_error_outputs": 0,
+      "syntax_parse": "PASS"
+    },
+    "notebooks/03_external/CTU13_M4_LabelFix_Colab.ipynb": {
+      "code_cells": 1,
+      "cells_executed": 1,
+      "saved_error_outputs": 0,
+      "syntax_parse": "PASS"
+    },
+    "notebooks/04_behavioral/Paper2_Hybrid_FullSource_FIXED_20261113.ipynb": {
+      "code_cells": 4,
+      "cells_executed": 4,
+      "saved_error_outputs": 0,
+      "syntax_parse": "PASS"
+    },
+    "notebooks/05_profiling/D7_Colab.ipynb": {
+      "code_cells": 6,
+      "cells_executed": 6,
+      "saved_error_outputs": 0,
+      "syntax_parse": "PASS"
+    }
+  },
+  "private_source_tables_included": 0,
+  "public_notebook_redactions": 9,
+  "note": "AST parsing is limited/static; no Colab rerun or external data retrieval has been performed; M4 OAT source CSV and recovered analysis script added 2026-11-16",
+  "m4_oat": {
+    "parameter_axes": [
+      "delta_tc",
+      "mgr_low",
+      "mgr_high",
+      "gamma",
+      "k_min",
+      "top_k"
+    ],
+    "rows": 46,
+    "datasets": 2,
+    "csv_source": "author upload 2026-11-16; bytes unmodified",
+    "script_source": "recovered from Project Library text; original byte identity unverified",
+    "python_syntax": "PASS",
+    "full_input_rerun": "not performed"
+  }
+}

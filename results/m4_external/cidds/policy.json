@@ -1,0 +1,13 @@
+{
+  "policy": {
+    "delta_tc": 0.05,
+    "gamma_min": 3.0,
+    "k_min": 2,
+    "top_k": 30,
+    "mgr_low": 2.0,
+    "mgr_strong": 5.0
+  },
+  "sha256": "6a7ef701ec380f2ead47f03c16d912afb92f489e7663286b631e9ba15a0f2bc1",
+  "source": "https://www.hs-coburg.de/wp-content/uploads/2024/11/CIDDS-001.zip",
+  "cohort": "OpenStack only"
+}

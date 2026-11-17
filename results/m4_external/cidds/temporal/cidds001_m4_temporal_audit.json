@@ -1,0 +1,30 @@
+{
+  "dataset": "CIDDS-001",
+  "capture": "OpenStack",
+  "units": "active source IP; out-degree = number of distinct destination IPs",
+  "timeline": "4 files partitioned by original OpenStack week (plus pooled control)",
+  "frozen_policy": {
+    "delta_tc": 0.05,
+    "gamma_min": 3.0,
+    "k_min": 2,
+    "top_k": 30,
+    "mgr_low": 2.0,
+    "mgr_strong": 5.0
+  },
+  "policy_sha256": "6a7ef701ec380f2ead47f03c16d912afb92f489e7663286b631e9ba15a0f2bc1",
+  "first_stage": "Label-free GSD\u2013PI decisions computed and saved before reading any label column",
+  "second_stage": "Attack if any outgoing flow class=attacker; normal only if every outgoing flow class=normal; otherwise unknown",
+  "note": "Four weeks are dependent temporal partitions, NOT four independently collected datasets",
+  "abstain": "Undefined precision/recall: no alert set emitted",
+  "known_attack_zero": "When no attack sources are present, attack recall is undefined",
+  "topk": "Tie-aware descriptive ranges, NOT an output of Algorithm 1",
+  "pooled_reproduction": {
+    "flows_match": true,
+    "sources_match": true,
+    "edges_match": true,
+    "gini_match": true,
+    "P95_match": true,
+    "MGR_match": true,
+    "selection_match": true
+  }
+}
