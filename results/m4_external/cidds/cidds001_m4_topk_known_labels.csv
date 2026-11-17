@@ -1,0 +1,5 @@
+k,cutoff,tie_count,known_attacker_min,known_attacker_max,note
+5,6201,1,1,1,"Bounds for CONFIRMED attackers, not precision when labels unknown"
+10,5352,1,2,2,"Bounds for CONFIRMED attackers, not precision when labels unknown"
+20,43,1,2,2,"Bounds for CONFIRMED attackers, not precision when labels unknown"
+50,19,1133,2,2,"Bounds for CONFIRMED attackers, not precision when labels unknown"

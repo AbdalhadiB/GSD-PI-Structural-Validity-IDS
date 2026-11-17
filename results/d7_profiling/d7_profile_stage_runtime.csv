@@ -1,0 +1,6 @@
+stage,wall_seconds,peak_process_rss_gib,n_rss_samples
+01_scan_and_cohort_row_counts,103.69,0.242,1030
+02_distinct_source_destination_edges,123.547,0.452,1228
+03_source_outdegree_aggregation,0.479,0.409,6
+04_degree_only_diagnostic,0.097,0.358,2
+05_posthoc_source_labels_separate_from_decision,126.773,0.355,1260

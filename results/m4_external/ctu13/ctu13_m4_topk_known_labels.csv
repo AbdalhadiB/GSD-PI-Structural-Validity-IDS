@@ -1,0 +1,5 @@
+k,confirmed_botnet_sources,confirmed_normal_sources,unknown_source_status,degree_at_rank_k,interpretation
+5,1,0,4,4190,descriptive_topk_only_not_precision
+10,1,0,9,742,descriptive_topk_only_not_precision
+20,1,0,19,505,descriptive_topk_only_not_precision
+50,1,1,48,282,descriptive_topk_only_not_precision

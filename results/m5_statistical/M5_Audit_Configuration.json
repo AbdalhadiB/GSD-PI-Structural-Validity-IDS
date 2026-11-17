@@ -1,0 +1,14 @@
+{
+  "method": "95% Wilson for precision TP/n and recall TP/A",
+  "null": "Exact hypergeometric random-set test conditional on N,A,n (random labels over entities)",
+  "curve": "Top-k rank sensitivity for k=1..200 plus diagnostics; tie-safe extrema; no attacker labels influence sorting",
+  "wtmc_curve": "NOT AVAILABLE; 47 active-source degree-label pairs absent",
+  "random_seed": null,
+  "no_monte_carlo": true,
+  "caveats": [
+    "Wilson intervals treat source entities as independent; duplicate hosts, temporal dependence and label provenance can invalidate nominal frequentist coverage",
+    "Random-set null is label exchangeability, not counterfactual impact of topology or PI; nonrandom labels by design",
+    "Rank-matched curves are retrospective diagnostics not Algorithm 1 operative sets",
+    "No production reputation data included because reference population not fully labeled"
+  ]
+}
