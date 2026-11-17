@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this repository's software or results, please cite the archived software release. A companion IEEE Access manuscript is under revision and has no publication DOI yet."
+type: software
+title: "GSD–PI: Reproducibility Package for Degree-Based Intrusion Screening"
+abstract: >-
+  Research code, executable notebooks, and aggregate validation evidence for
+  the Graph Structural Differentiability and Prominence Isolation (GSD–PI)
+  diagnostic of active-source out-degree screening. Includes a corrected
+  selection policy, external benchmark audits, sensitivity analysis,
+  statistical checks, and runtime profiles. Some original source-level
+  inputs are not redistributed; this is not an independently verified
+  end-to-end reproduction.
+authors:
+  - family-names: "Albluwi"
+    given-names: "Abdulhadi"
+version: "1.0.0"
+license: MIT
+repository-code: "https://github.com/AbdalhadiB/GSD-PI-Structural-Validity-IDS"
+url: "https://github.com/AbdalhadiB/GSD-PI-Structural-Validity-IDS"
+keywords:
+  - intrusion detection
+  - out-degree screening
+  - network security
+  - GSD–PI
+  - structural feasibility
+  - prominence isolation
+  - reproducibility
