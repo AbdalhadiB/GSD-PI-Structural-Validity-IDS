@@ -4,7 +4,8 @@
 - [x] Add author-uploaded M4 OAT CSV and recovered script text to `results/m4_sensitivity/` and `analysis/`. **Provenance caveat:** exact original `.py` bytes are not independently verified.
 - [ ] Add exact input source provenance and deterministic reproduction instructions where possible.
 - [ ] Make the manuscript's decision labels consistent with the frozen protocol semantics; preserve supporting historical outputs as evidence.
-- [ ] Choose and attach a suitable license and verified author/coauthor information.
+- [x] Confirm the existing repository-root MIT License (Copyright (c) 2026 Abdalhadi Albalawi); retain the original `LICENSE` file.
+- [ ] Verify all author/coauthor and affiliation metadata; confirm permissions for any third-party material, which is not automatically covered by MIT.
 - [ ] Update the existing repository's title/README **without overwriting its prior commit history**; merge reviewed files using a new revision branch.
 - [ ] Tag a reviewed, immutable GitHub release, e.g. `v1.0-review-revision` (tag shown only as example, not created).
 - [ ] Link that actual released version to Zenodo and confirm a DOI was assigned; do not invent or preclaim one.

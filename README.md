@@ -47,4 +47,4 @@ No production access logs, original visitor IP addresses, IP-level AbuseIPDB loo
 
 ## Citation, version and license
 
-The manuscript is in revision and this candidate has no Zenodo DOI yet. Do **not** quote an archival DOI until the public archive actually exists. **No license has been selected**: before publishing, the author should select an appropriate software/data license, add full confirmed author/affiliation metadata, and produce a GitHub Release from the reviewed state. See `docs/PUBLISHING_CHECKLIST.md`.
+The manuscript is in revision and this candidate has no Zenodo DOI yet. Do **not** quote an archival DOI until the public archive actually exists. The author-owned source code and associated documentation are released under the **MIT License**; see the repository-root `LICENSE` file (`Copyright (c) 2026 Abdalhadi Albalawi`). Third-party datasets and other materials retain their respective licenses and distribution restrictions. Verified author/coauthor and affiliation metadata should be finalized before tagging a reviewed GitHub Release. See `docs/PUBLISHING_CHECKLIST.md`.

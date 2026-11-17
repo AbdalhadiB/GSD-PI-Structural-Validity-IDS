@@ -7,7 +7,7 @@
 - Add required provenance for the original source-entity tables, including source/origin, generation script and version/checksum if known. Do not guess any hash.
 - Confirm notebook reproducibility in a **new environment** if claiming full independent execution. Existing Colab runs and CSV verification show saved evidence only.
 - Review repository files for confidential content and author permissions a final time, including rendered notebook outputs.
-- Decide on the license and all coauthor credit/citation metadata before enabling any public archival release.
+- **License confirmed:** The repository already contains an MIT `LICENSE` file with `Copyright (c) 2026 Abdalhadi Albalawi`. Keep it intact. Before archival release, verify all coauthor credit/citation metadata and permissions for third-party material separately.
 - After author approval, create GitHub Release, archive that exact release in Zenodo, verify DOI and update the final manuscript's Code Availability statement.
 
 **Not mandatory to rerun large data merely for packaging**
